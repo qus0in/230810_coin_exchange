@@ -3,6 +3,6 @@
 $ python3 -m venv venv
 $ pip install requests
 $ pip install python-dotenv
-$ pip install PyJWT
+$ pip iqnstall PyJWT
 $ pip install pandas
 ```

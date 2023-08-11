@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 if __name__ == '__main__':
     load_dotenv()
     exchange = Exchange()
+    # TODO : API key 정상인지 확인, IP 확인
     exchange.전체_계좌_조회() # exchange.계좌
     exchange.현재가_조회() # exchange.시세
     exchange.총자산_조회() # exchange.총자산
